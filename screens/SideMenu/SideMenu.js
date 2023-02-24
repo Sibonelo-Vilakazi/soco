@@ -2,7 +2,7 @@ import {  Text, View,  } from 'react-native';
 import styles from './side_menu_styles';
 
 
-export default function SideMenu() {
+const SideMenu = ()  =>{
   return (
     <View style={styles.mainColumn}>
       <Text style={styles.closeIconText}>X</Text>
@@ -22,3 +22,5 @@ export default function SideMenu() {
 
   );
 }
+
+export {SideMenu}

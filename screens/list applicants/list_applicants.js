@@ -3,7 +3,7 @@ import { Icon, Card, Button } from 'react-native-elements';
 import styles from './list_applicants_styles';
 
 
-export default function ListApplicants() {
+const ListApplicants = () => {
 
   return (
     <View style={styles.mainColumn}>
@@ -35,3 +35,5 @@ export default function ListApplicants() {
 
 
 
+
+export {ListApplicants};

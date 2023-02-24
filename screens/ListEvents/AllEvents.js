@@ -129,4 +129,4 @@ const AllEvents = () => {
 
 
 
-export default AllEvents;
+export {AllEvents};

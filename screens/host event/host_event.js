@@ -22,4 +22,4 @@ const HostEvent = () => {
 };
 
 
-export default HostEvent;
+export {HostEvent};

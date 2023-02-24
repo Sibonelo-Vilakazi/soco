@@ -1,10 +1,9 @@
-import { Text, View,  } from 'react-native';
-import {  Card, Image } from 'react-native-elements';
-import styles from './cancel_event_styles';
+import React from 'react';
+import { Text, View } from 'react-native';
+import { Card, Image } from 'react-native-elements';
+import styles  from './cancel_event_styles';
 
-
-
-export default function CancelEvent() {
+const CancelEvent = () => {
   return (
     <View style={styles.mainColumn}>
       <Text style={styles.eventDate}>28 December 2022</Text>
@@ -12,8 +11,8 @@ export default function CancelEvent() {
         <View style={styles.eventImage}>
           <Image
             style={{
-              width: 140.0,
-              height: 140.0
+              width: 140,
+              height: 140
             }}
             source={{ uri: 'https://imageio.forbes.com/specials-images/imageserve/615d9a31a7fca8f4813ba9b6/0x0.jpg?format=jpg&width=1200' }}
           />
@@ -33,8 +32,8 @@ export default function CancelEvent() {
           <View style={styles.hostImage}>
             <Image
               style={{
-                width: 100.0,
-                height: 100.0
+                width: 100,
+                height: 100
               }}
               source={{ uri: 'https://www.ronnyleber.com/wp-content/uploads/2021/02/Ronny-Leber-Event-Host.jpg' }}
             />
@@ -53,5 +52,6 @@ export default function CancelEvent() {
     </View>
 
   );
-}
+};
 
+export {CancelEvent};
