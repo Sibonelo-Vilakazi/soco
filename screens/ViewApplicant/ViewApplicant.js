@@ -4,7 +4,7 @@ import { AntDesign } from '@expo/vector-icons';
 import styles from './view_applicant_styles';
 
 
-export default function ViewApplicant() {
+const ViewApplicant = () =>{
 
 
   return (
@@ -51,3 +51,4 @@ export default function ViewApplicant() {
   );
 }
 
+ export {ViewApplicant}

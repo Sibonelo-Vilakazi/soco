@@ -5,6 +5,7 @@ export { ListApplicants } from './list applicants/list_applicants';
 export { AllEvents } from './ListEvents/AllEvents';
 export { Apply } from './ListEvents/Apply';
 export { SideMenu } from './SideMenu/SideMenu';
+export { ViewApplicant } from './ViewApplicant/ViewApplicant';
 // export { HostEvent } from './HostEvent/HostEvent';
 // export { CancelEvent } from './cancel event/cancel_event';
 // export { CancelEvent } from './cancel event/cancel_event';
